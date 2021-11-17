@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: block;
+    box-shadow: 10px;
+    width: 100%;
+    border: 1px black solid;
+    line-height: 50px ;
+}
+.navbar li{
+    list-style: none;
+    text-decoration: none;
+}
+.navbar li a{
+    display: inline-block;
+    margin: 5px;
+    padding: 0px 20px;
+    text-decoration: none;
+    color: rgb(50, 92, 168);
+}
+li{
+    display: inline-block;
+    color: white;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position:absolute;
+}
+.dropdown-content a{
+    display: block;
+    margin: 5px;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+    top:50px;
+}
+.container {
+    text-align: center;
+}
+.navbar button{
+    background-color:rgb(49, 130, 223);
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    padding: 5px;
+    color: white;
+}
+.about_us{
+    text-align: center;
+    font-weight: lighter;
+}
+.about{
+    font-size: 50px;
+    margin: 10px;
+    color: rgb(50, 92, 168);
+}
+.center{
+    display: block;
+    width: 100%;
+    padding:30px 40px;
+}
+.left{
+    width: 50%;
+    display:block;
+    float: left;
+    padding:10px;
+    text-align: left;
+}
+
+.left div{
+    margin-top: 15px;
+    line-height: 10px;
+}
+.right{
+    text-align:left;
+    width: 50%;
+    display:block;
+    float: left;
+    padding: 10px;
+}
+.left div i{
+    
+    margin:0px 5px;
+    color: rgb(49, 130, 223);
+}
+.right button{
+    padding: 6px 20px;
+    border: 4px rgb(49, 130, 223) solid;
+    background-color: white;
+    border-radius: 4px;
+    color: rgb(49, 130, 223)  ;
+}
+.footer{
+    padding:20px 0px;
+    color:rgb(3, 42, 87) ;
+    text-align: center;
+    width: 100%;
+    bottom:60px;
+    position: absolute;
+    display: block;
+    height:150px;
+    background-color: rgb(202, 229, 241);
+    
+}
+.footer .foot{
+    margin-top: 30px;
+    text-align: center;
+    width:25%;
+    display: block;
+    float: left;
+}
+.footer .foot div{
+    line-height: 30px;
+    font-size: 50px;
+    font-weight: 800;
+}
+.footer .up-arrow{
+    display: inline-block;
+    position:absolute ;
+    bottom: 10px;
+    right:17px;
+    padding: 5px 10px;
+    background-color: rgb(49, 130, 223);
+    color: white;
+    border-radius: 5px;
+}
